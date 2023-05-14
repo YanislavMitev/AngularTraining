@@ -1,4 +1,6 @@
-package com.yani.designpatterns.creational.abstractfactory;
+package com.yani.designpatterns.creational.abstractfactory.validator;
+
+import com.yani.designpatterns.creational.abstractfactory.card.CreditCard;
 
 public class AmexPlatinumValidator implements Validator {
     @Override

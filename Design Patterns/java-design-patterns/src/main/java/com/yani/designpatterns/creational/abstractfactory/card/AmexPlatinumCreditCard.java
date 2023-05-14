@@ -1,4 +1,4 @@
-package com.yani.designpatterns.creational.abstractfactory;
+package com.yani.designpatterns.creational.abstractfactory.card;
 
 public class AmexPlatinumCreditCard extends CreditCard {
 }

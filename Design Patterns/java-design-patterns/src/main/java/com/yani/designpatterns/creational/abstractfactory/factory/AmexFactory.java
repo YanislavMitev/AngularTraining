@@ -1,4 +1,12 @@
-package com.yani.designpatterns.creational.abstractfactory;
+package com.yani.designpatterns.creational.abstractfactory.factory;
+
+import com.yani.designpatterns.creational.abstractfactory.validator.AmexGoldValidator;
+import com.yani.designpatterns.creational.abstractfactory.validator.AmexPlatinumValidator;
+import com.yani.designpatterns.creational.abstractfactory.validator.Validator;
+import com.yani.designpatterns.creational.abstractfactory.card.AmexGoldCreditCard;
+import com.yani.designpatterns.creational.abstractfactory.card.AmexPlatinumCreditCard;
+import com.yani.designpatterns.creational.abstractfactory.card.CardType;
+import com.yani.designpatterns.creational.abstractfactory.card.CreditCard;
 
 public class AmexFactory extends CreditCardFactory {
     @Override
