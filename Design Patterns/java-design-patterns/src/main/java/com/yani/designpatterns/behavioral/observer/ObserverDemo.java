@@ -1,5 +1,9 @@
 package com.yani.designpatterns.behavioral.observer;
 
+/**
+ * Client.
+ * <a href="https://app.pluralsight.com/course-player?clipId=e5383a97-9eab-4d84-aef9-2c365bf39da0">Pluralsight link </a>
+ */
 public class ObserverDemo {
     public static void main(String[] args) {
         Subject subject = new MessageStream();
